@@ -6,9 +6,9 @@ G = gsp_nn_graph(coord, param);
 G.coords = coord;
 for i = 1:numOfnode
     for j = 1:numOfnode
-        if G.W(i,j)~=0 && G.W(i,j) >= 0.3865
+        if G.W(i,j)~=0 && G.W(i,j) >= 0.4
             G.W(i,j) = 1;
-        elseif G.W(i,j)~=0 && G.W(i,j) < 0.3865
+        elseif G.W(i,j)~=0 && G.W(i,j) < 0.4
             G.W(i,j) = 1/(sqrt(8)/2);
         end
     end
