@@ -7,6 +7,6 @@ By running "main.m", you will see the plots of the synthetic pure atrial activit
 
 
 [1] M. Sun, E. Isufi, N. M. de Groot, and R. C. Hendriks. 
-    "Graph-Time Spectral Analysis for Atrial Fibrillation", under review
+    "Graph-Time Spectral Analysis for Atrial Fibrillation"
 
   
